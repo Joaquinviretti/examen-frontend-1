@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <img src="./img/logo.svg" alt="manage logo">
         <nav>
             <ul>
@@ -23,10 +23,11 @@
             </ul>
         </nav>
         <a class="button" href="">Get Stared</a>
+        <img class="menu-button" src="./img/icon-hamburger.svg" alt="">
     </header>
 
     <main>
-        <section id="banner">
+        <section class="container" id="banner">
             <div class="banner__left">
                 <h2>Bring everyone together to build better products</h2>
                 <p>Manage makes it simple for software teams
@@ -39,7 +40,7 @@
             </div>
         </section>
 
-        <section id="aboutUs">
+        <section class="container" id="aboutUs">
 
             <div class="aboutUs__left">
                 <h2>What's different about Manage?</h2>
@@ -50,33 +51,27 @@
 
             <div class="aboutUs__right">
 
-                <div class="item">
-                    <span class="number">01</span>
-                    <div>
-                        <h3>Track company-wide progress</h3>
-                        <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the
-                            milestone level all the way done to the smallest of details. Never lose sight of the bigger
-                            picture again.</p>
-                    </div>
-                </div>
+                <article class="item">
+                    <h3> <span class="number">01</span> Track company-wide progress</h3>
+                    <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the
+                        milestone level all the way done to the smallest of details. Never lose sight of the bigger
+                        picture again.</p>
+                </article>
 
-                <div class="item">
-                    <span class="number">02</span>
-                    <div>
-                        <h3>Advance built-in reports</h3>
-                        <p>Set internal delivery estimates and track progress toward company goals. Our customisable
-                            dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
-                    </div>
-                </div>
+                <article class="item">
 
-                <div class="item">
-                    <span class="number">03</span>
-                    <div>
-                        <h3>Everything you need in one place</h3>
-                        <p>Stop jumping from one service to another to communicate, store files, track tasks and share
-                            documents. Manage offers an all-in-one team productivity solution.</p>
-                    </div>
-                </div>
+                    <h3> <span class="number">02</span>Advance built-in reports</h3>
+                    <p>Set internal delivery estimates and track progress toward company goals. Our customisable
+                        dashboard helps you build out the reports you need to keep key stakeholders informed
+                    </p>
+                </article>
+
+                <article class="item">
+                    <h3> <span class="number">03</span>Everything you need in one place</h3>
+                    <p>Stop jumping from one service to another to communicate, store files, track tasks and share
+                        documents. Manage offers an all-in-one team productivity solution.</p>
+                </article>
+
             </div>
         </section>
 
@@ -109,11 +104,12 @@
     </main>
 
     <footer>
-        <div class="footer__top">
+        <div class="footer__top container">
             <h3>Simplify how your team works today</h3>
             <a class="button button--white" href="">Get Started</a>
         </div>
-        <div class="footer__bottom">
+        <div class="footer__bottom container">
+            <span class="copyright copyright--mobile">Copyright 2020. All Rights Reserverd</span>
             <div class="footer__social">
                 <img src="./img/logo--white.svg" alt="">
                 <div class="footer_icons">
@@ -138,14 +134,14 @@
                 </ul>
             </div>
             <div class="footer__newsletter">
-                <div>     
+                <div>
                     <label for="">
                         Update in your inbox...
                     </label>
                     <input placeholder="   Update in your inbox..." type="email">
                     <input type="submit" value="Go">
                 </div>
-                <span>Copyright 2020. All Rights Reserverd</span>
+                <span class="copyright copyright--desktop">Copyright 2020. All Rights Reserverd</span>
             </div>
         </div>
     </footer>
