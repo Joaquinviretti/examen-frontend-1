@@ -73,6 +73,10 @@ header ul li a {
     color: black;
 }
 
+header ul li a:hover {
+    color: gray;
+}
+
 .menu-button {
     display: none;
 }
@@ -348,6 +352,7 @@ header ul li a {
     color: white;
     padding: 12px 22px;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .copyright {
