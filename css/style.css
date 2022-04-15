@@ -27,14 +27,6 @@ input {
     padding: 0 165px;
 }
 
-.pill1 {
-    position: absolute;
-    width: 650px;
-    top: -15%;
-    right: -5%;
-    z-index: -1;
-}
-
 /* components */
 
 .button {
